@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="examenModelStoreContainer" CdmEntityContainer="examenEntities">
+    <EntitySetMapping Name="searchs">
+      <EntityTypeMapping TypeName="examenModel.searchs">
+        <MappingFragment StoreEntitySet="searchs">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="searchHistory" ColumnName="searchHistory" />
+          <ScalarProperty Name="date" ColumnName="date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="users">
+      <EntityTypeMapping TypeName="examenModel.users">
+        <MappingFragment StoreEntitySet="users">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="users1" ColumnName="users" />
+          <ScalarProperty Name="pass" ColumnName="pass" />
+          <ScalarProperty Name="nombreCompleto" ColumnName="nombreCompleto" />
+          <ScalarProperty Name="createDate" ColumnName="createDate" />
+          <ScalarProperty Name="updateDate" ColumnName="updateDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
